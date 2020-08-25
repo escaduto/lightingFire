@@ -10,9 +10,36 @@
 .fireImage {
   padding-top: 50px;
   width: 100%;
+  height: auto;
   object-fit: cover;
 }
 
 .hidden {
   display: none;
+}
+
+.date {
+  padding-top: 12px;
+  text-align: center;
+}
+
+.ant-carousel .slick-dots-bottom {
+  bottom: -35px;
+}
+.ant-carousel .slick-dots li, .ant-carousel .slick-dots li button {
+  height: 5px;
+}
+
+.ant-carousel .slick-dots li.slick-active {
+  width: 34px;
+  height: 5px;
+}
+
+.ant-carousel .slick-dots li.slick-active button {
+  background: #2a9d8f;
+}
+
+.customDot li {
+  background-color: #264653;
+  height: 5px;
 }
