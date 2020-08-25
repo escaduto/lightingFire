@@ -18,30 +18,30 @@ function App() {
   return (
     <div className="App">
        <div className="container">
-        <Carousel arrows={true} dots={{ className: 'customDot'}} autoplay effect="fade" autoplaySpeed={1500}>
+        <Carousel arrows={true} dots={{ className: 'customDot'}} autoplay effect="fade" pauseOnDotsHover={true} fade={true} autoplaySpeed={1500}>
           <div>
             <img className="fireImage"  src={dayOneFire} alt="" />
-            <div className="date"><Text>08/18/2020</Text></div>
+            <div className="date"><Text>August 18, 2020</Text></div>
           </div>
           <div>
             <img className="fireImage" src={dayTwoFire} alt="" />
-            <div className="date"><Text>08/19/2020</Text></div>
+            <div className="date"><Text>August 19, 2020</Text></div>
           </div>
           <div>
             <img className="fireImage"  src={dayThreeFire} alt="" />
-            <div className="date"><Text>08/20/2020</Text></div>
+            <div className="date"><Text>August 20, 2020</Text></div>
           </div>
           <div>
             <img className="fireImage"  src={dayFourFire} alt="" />
-            <div className="date"><Text>08/21/2020</Text></div>
+            <div className="date"><Text>August 21, 2020</Text></div>
           </div>
           <div>
             <img className="fireImage"  src={dayFiveFire} alt="" />
-            <div className="date"><Text>08/22/2020</Text></div>
+            <div className="date"><Text>August 22, 2020</Text></div>
           </div>
           <div>
             <img className="fireImage"  src={daySixFire} alt="" />
-            <div className="date"><Text>08/23/2020</Text></div>
+            <div className="date"><Text>August 23, 2020</Text></div>
           </div>
         </Carousel>
        </div>
