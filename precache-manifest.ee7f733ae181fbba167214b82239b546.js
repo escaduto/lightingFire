@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6b103c896d88f8095bd4d9110352fe57",
+    "revision": "9a7e9dc2c71ad9a5c5124c926d88d37a",
     "url": "/lightingFire/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lightingFire/static/css/2.847e01e0.chunk.css"
   },
   {
-    "revision": "4f097425a6cf4b5ec506",
-    "url": "/lightingFire/static/css/main.033cfbdc.chunk.css"
+    "revision": "cd4630b406c871720428",
+    "url": "/lightingFire/static/css/main.88e2c345.chunk.css"
   },
   {
     "revision": "17389278466bc298423d",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lightingFire/static/js/2.657c10b6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4f097425a6cf4b5ec506",
-    "url": "/lightingFire/static/js/main.ccf9c6d4.chunk.js"
+    "revision": "cd4630b406c871720428",
+    "url": "/lightingFire/static/js/main.82e380e0.chunk.js"
   },
   {
     "revision": "903c234739f03b164f1b",
