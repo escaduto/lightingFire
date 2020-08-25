@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Slider from '@material-ui/core/Slider';
-import Container from '@material-ui/core/Container';
 import './App.css';
 import dayOneFire from './assets/LNU_08182020.jpg';
 import dayTwoFire from './assets/LNU_08192020.jpg';
@@ -36,15 +35,6 @@ const marks = [
   },
 ];
 
-const dayToImageMap = {
-  1: dayOneFire,
-  2: dayTwoFire,
-  3: dayThreeFire,
-  4: dayFourFire,
-  5: dayFiveFire,
-  6: daySixFire
-}
-
 function App() {
 
   const [slide, setSlide] = useState(1);
@@ -73,7 +63,12 @@ function App() {
           min={1}
           max={marks.length}
         />
-        <img className="fireImage" src={dayToImageMap[slide]} alt="" />
+        <img className={slide !== 1 ? 'hidden' : 'fireImage'} src={dayOneFire} alt="" />
+        <img className={slide !== 2 ? 'hidden' : 'fireImage'} src={dayTwoFire} alt="" />
+        <img className={slide !== 3 ? 'hidden' : 'fireImage'} src={dayThreeFire} alt="" />
+        <img className={slide !== 4 ? 'hidden' : 'fireImage'} src={dayFourFire} alt="" />
+        <img className={slide !== 5 ? 'hidden' : 'fireImage'} src={dayFiveFire} alt="" />
+        <img className={slide !== 6 ? 'hidden' : 'fireImage'} src={daySixFire} alt="" />
        </div>
     </div>
   );
