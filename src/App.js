@@ -61,7 +61,7 @@ function App() {
 
   return (
     <div className="App">
-       <Container maxWidth="md">
+       <div className="container">
         <Slider
           onChange={handleChange}
           defaultValue={1}
@@ -74,7 +74,7 @@ function App() {
           max={marks.length}
         />
         <img className="fireImage" src={dayToImageMap[slide]} alt="" />
-       </Container>
+       </div>
     </div>
   );
 }
