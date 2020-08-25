@@ -37,18 +37,19 @@ const marks = [
 
 function App() {
 
-  const [slide, setSlide] = useState(1);
+  const [slide, setSlide] = useState(marks.length);
 
   const handleChange = (event, newValue) => {
     setSlide(newValue);
   };
+
 
   return (
     <div className="App">
        <div className="container">
         <Slider
           onChange={handleChange}
-          defaultValue={1}
+          defaultValue={marks.length}
           aria-labelledby="discrete-slider"
           valueLabelDisplay="off"
           step={1}
