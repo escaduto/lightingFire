@@ -39,15 +39,9 @@ function App() {
 
   const [slide, setSlide] = useState(1);
 
-  const valuetext = (value) => {
-    return `${17+value}`;
-  }
-
   const handleChange = (event, newValue) => {
     setSlide(newValue);
   };
-
-  console.log({ slide })
 
   return (
     <div className="App">
@@ -55,7 +49,6 @@ function App() {
         <Slider
           onChange={handleChange}
           defaultValue={1}
-          getAriaValueText={valuetext}
           aria-labelledby="discrete-slider"
           valueLabelDisplay="off"
           step={1}
